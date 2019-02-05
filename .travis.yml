@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: pfHGYzMYKAy63DI0O00P2BQZNmhJ6szErGP7SVRlhZQRW+iKgSGu+9WYGMsDFIRSFEl6qIIOSFIQOVJVby3kPmi3vD7n30BYyqVJEEXwth3TlYjn+KrKrVNkW6hUnOCQNVAEYpT8oJuxLIw/KNI4/1v+4mBjp/Nqqx57q5IeTaB3mzClXDbzzOtkU54NLc/rUX/wh1AiZPoUMQs15HNHZrOtRVBRNIC8sVvttY6JZY26IhzFVznM9fSjutWrqi77KOK2epN4Cd6cef7mONpKAG/RNOUIjNhmJOuhsAYZGqz8r3M9kfep4jRzQQmfnmn9QEvnWV88XOOOjudjTH7oMzanAAE5Itwb/PXUtxCOLj9GvHWY2M6FlRhbK/mhnq1xPjsgyxzz8j8htQgNnVSKcGLb31ScfrGunVTkGUi9jcMH7ONiDPdk/v7J1OkFHyWeBZlUlzOgLIhVCRD2LMWxfxxU9Yc0XuYwg3hXiHjsEwIhlygQM9rnG1adI8fC5Y+wligAdj0k8SZOsym1w4qtKFdQaaKD06WoHph+Qf83pOnNl/j3Ez9bOOwmX635CIvGzPOnX5tUur3aJe0kHKb44eRoT3tf1Fj8JoQIZUqwImDVwhnohYcTeeMbuVLNytCbhRBhz47G7bb4CD7jHkRu4Mdc2/OBIzJLbNAHppaoJno=
+  app: fathomless-bastion-85814
+  on:
+    repo: tranlam10/blog-app-mongoose-testing
